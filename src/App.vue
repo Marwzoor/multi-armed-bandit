@@ -33,22 +33,22 @@ export default {
 	data () {
 		const bandits = [
 			{
-				chance: 80,
+				chance: 20 + Math.round(Math.random() * 70),
 				count: 0,
 				status: ''
 			},
 			{
-				chance: 45,
+				chance: 20 + Math.round(Math.random() * 70),
 				count: 0,
 				status: ''
 			},
 			{
-				chance: 30,
+				chance: 20 + Math.round(Math.random() * 70),
 				count: 0,
 				status: ''
 			},
 			{
-				chance: 55,
+				chance: 20 + Math.round(Math.random() * 70),
 				count: 0,
 				status: ''
 			}
