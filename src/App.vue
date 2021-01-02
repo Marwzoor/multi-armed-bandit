@@ -155,7 +155,7 @@ export default {
 		testBandit(banditIndex) {
 			const bandit = this.bandits[banditIndex];
 
-			const result = Math.random() * 100 < bandit.chance;
+			const result = Math.random() * 100 <= bandit.chance;
 
 			if (result) {
 				bandit.status = 'won';
@@ -172,6 +172,11 @@ export default {
 </script>
 
 <style>
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
 	margin: 0;
 	padding: 0;
