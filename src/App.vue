@@ -192,6 +192,7 @@ h1 {
 
 .bandits {
 	display: flex;
+	justify-content: space-around;
 }
 
 .bandit {
@@ -204,6 +205,7 @@ h1 {
 	border-radius: 20px;
 	position: relative;
 	width: 100%;
+	max-width: 160px;
 }
 
 .bandit-arm {
@@ -237,7 +239,7 @@ h1 {
 }
 
 .bandit-display-text {
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .bandit-display-text.won {
